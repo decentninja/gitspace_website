@@ -110,7 +110,7 @@ body {
 	width: 100%;
 }
 
-.bit.black {
+.black {
 	background-color: #171819;
 }
 
@@ -128,4 +128,62 @@ body {
 		width: 95%;
 	}
 	
+}
+
+.outro {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.outro p {
+	max-width: 500px;
+	text-align: center;
+}
+
+
+.development h2 {
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.development {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.development .developers {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 1000px;
+	justify-content: space-around;
+	margin-bottom: 3em;
+}
+
+.dev {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 80%;
+	width: 250px;
+	margin-top: 3em;
+}
+
+.dev img {
+	width: 35%;
+	margin-bottom: 1.5em;
+}
+
+.dev h3 {
+	margin: 0;
+}
+
+.dev a {
+	text-decoration: none;
+	color: #4291E5;
 }
