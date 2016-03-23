@@ -1,0 +1,59 @@
+* { 
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+	background-color: #1A1B1C;
+	color: white;
+}
+
+.jumbotron {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background: url("images/background.jpg") no-repeat center center;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.jumbotron .logo {
+	margin-top: 8em;
+	width: 60%;
+}
+@media screen and (max-width: 540px) {
+	.jumbotron .logo {
+		width: 90%;
+	}
+}
+
+.jumbotron .video {
+	margin-bottom: 8em;
+	font-size: 150%;
+	color: white;
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+}
+
+.jumbotron .video span {
+	margin-bottom: 0.5em;
+}
+
+.jumbotron .video img {
+	width: 40px;
+}
+
+.jumbotron .more {
+	position: absolute;
+	bottom: 10px;
+	font-size: 110%;
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.2);
+}
