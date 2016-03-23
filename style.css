@@ -55,6 +55,8 @@ body {
 	font-size: 110%;
 	text-align: center;
 	width: 100%;
+	left: 0;
+	right: 0;
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.2);
 }
@@ -95,6 +97,7 @@ body {
 
 .bit .copy {
 	align-self: flex-end;
+	font-size: 80%;
 }
 
 .bit .copy a {
