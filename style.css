@@ -23,6 +23,7 @@ body {
 	margin-top: 8em;
 	width: 60%;
 }
+
 @media screen and (max-width: 540px) {
 	.jumbotron .logo {
 		width: 90%;
@@ -111,4 +112,20 @@ body {
 
 .bit.black {
 	background-color: #171819;
+}
+
+@media screen and (max-width: 1000px) {
+	.bit {
+		height: auto;
+	}
+		
+	.bit > div {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bit > div > div {
+		width: 95%;
+	}
+	
 }
