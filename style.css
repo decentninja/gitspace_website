@@ -191,6 +191,11 @@ body {
 	color: #4291E5;
 }
 
+
+.development > p {
+	margin-bottom: 2em;
+}
+
 footer {
 	text-align: center;
 }
